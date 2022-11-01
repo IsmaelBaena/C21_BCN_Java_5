@@ -1,0 +1,44 @@
+[class^=num] {
+    position:absolute;
+    background-color: lightgreen;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.box {
+    position: relative;
+    margin: 30px;
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+
+p {
+    margin: 1px;
+    text-align: center;
+}
+
+div {
+    border: 3px solid;
+} 
+
+.num-1 {
+    top: -15px;
+    left: -15px;
+}
+
+.num-2 {
+    top: -15px;
+    right: -15px;
+}
+
+.num-3 {
+    bottom: -15px;
+    left: -15px;
+}
+
+.num-4 {
+    bottom: -15px;
+    right: -15px;
+}

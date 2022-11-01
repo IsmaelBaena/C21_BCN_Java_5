@@ -1,0 +1,38 @@
+.red {background-color: red;}
+
+.blue {background-color: blue;}
+
+.green {background-color: green;}
+
+.yellow {background-color: yellow;}
+
+.magenta {background-color: magenta;}
+
+.cyan {background-color: cyan;}
+
+h3 {
+    margin-top: 10%;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    font-style: italic;
+}
+
+section {
+    clear: left;
+    width: 100%;
+}
+
+div {
+    margin: 5%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 100%;
+}

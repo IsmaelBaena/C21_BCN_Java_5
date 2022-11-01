@@ -1,0 +1,10 @@
+p {
+    float: left;
+    width: 200px;
+}
+
+img {
+    height: 300px;
+    width: fit-content;
+    float: left;
+}

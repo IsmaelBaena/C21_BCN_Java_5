@@ -1,0 +1,24 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    color: red;
+}
+
+h1:hover {
+    color: green;
+}
+
+p {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: red;
+}
+
+p::selection {
+    color: red;
+    background-color: aqua;
+}

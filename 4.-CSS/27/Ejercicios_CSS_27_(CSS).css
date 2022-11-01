@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'BigShouldersDisplay';
+    src: url('fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf') ;
+}
+
+@font-face {
+    font-family: 'LexendDeca';
+    src: url('fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf') ;
+}
+
+main {
+    background-color: hsl(0, 0%, 95%);
+    display: grid;
+    margin: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1f;
+}
+
+p {color: hsla(0, 0%, 100%, 0.75);}
+h2, p {margin: 15%;}
+
+img, button {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+h2 {
+    font-size: 200%;
+    color: hsl(0, 0%, 95%);
+    font-family: BigShouldersDisplay;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+section {
+    padding: 5%;
+    height: 100%;
+}
+
+#seadans-section button {color: hsl(31, 77%, 52%);}
+#suvs-section button {color: hsl(184, 100%, 22%);}
+#luxury-section button {color: hsl(179, 100%, 13%);}
+
+button {
+    margin-top: 30%;
+    padding: 3% 10%;
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    text-align: center;
+}
+
+#seadans-section {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#suvs-section {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury-section {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+#seadans-section button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#suvs-section button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#luxury-section button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+@media (max-width:375px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,87 @@
+div:not(grey, line) {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.line {
+    position: absolute;
+    background-color: black;
+}
+
+.grey {
+    background-color: grey;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 10px;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.i1 {
+    width: 450px;
+    height: 450px;
+}
+
+.i2 {
+    width: 400px;
+    height: 400px;
+}
+
+.i3 {
+    width: 350px;
+    height: 350px;
+}
+
+.i4 {
+    width: 300px;
+    height: 300px;
+}
+
+.i5 {
+    width: 250px;
+    height: 250px;
+}
+
+.i6 {
+    width: 200px;
+    height: 200px;
+}
+
+.i7 {
+    width: 150px;
+    height: 150px;
+}
+
+.i8 {
+    width: 100px;
+    height: 100px;
+}
+
+.i9 {
+    width: 50px;
+    height: 50px;
+}
+
+.horizontal {
+    top: 248px;
+    width: 450px;
+    height: 5px;
+}
+
+.vertical {
+    left: 248px;
+    height: 450px;
+    width: 5px;
+}

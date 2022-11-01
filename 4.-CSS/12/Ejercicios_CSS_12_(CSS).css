@@ -1,0 +1,17 @@
+p {
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    text-align: justify;
+    margin: 30px;
+}
+
+.hidden {
+    float: left;
+    overflow: hidden;
+}
+
+.scroll {
+    float: left;
+    overflow: auto;
+}

@@ -1,0 +1,60 @@
+#orange {height: 15vh;}
+#orange div{
+    background-color: orange;
+    width: 48%;
+}
+
+#yellow {height: 40vh;}
+#yellow div{
+    background-color: yellow;
+    width: 97%;
+}
+
+#blue {height: 20vh;}
+#blue div{
+    background-color: blue;
+    width: 31.7%;
+}
+
+#lightGrey {height: 10vh;}
+#lightGrey div{
+    background-color: lightgray;
+    width: 23.5%;
+}
+
+section {
+    margin: 1vh 2vh;
+    width: 100%;
+}
+
+div {
+    height: 100%;
+    float: left;
+    margin: 1vh;
+}
+
+@media (max-width:768px) {
+    #orange {height: 10vh;}
+    #orange div{width: 97%;}
+
+    #yellow {height: 20vh;}
+
+    #blue {height: 12vh;}
+    #blue div {width: 97%;}
+
+    #lightGrey {height: 5vh;}
+    #lightGrey div {width: 48%;}
+}
+
+@media (max-width:320px) {
+    #orange {height: 7vh;}
+    #orange div{width: 97%;}
+
+    #yellow {height: 10vh;}
+
+    #blue {height: 20vh;}
+    #blue div {width: 97%;}
+
+    #lightGrey {height: 5vh;}
+    #lightGrey div {width: 97%;}
+}

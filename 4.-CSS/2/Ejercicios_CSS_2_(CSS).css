@@ -1,0 +1,7 @@
+input:out-of-range {
+    background-color: lightcoral;
+}
+
+input:in-range {
+    background-color: lightgreen;
+}

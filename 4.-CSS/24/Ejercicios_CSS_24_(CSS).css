@@ -1,0 +1,72 @@
+.header-item {
+    background-color: black;
+    grid-area: headerI;
+}
+
+.menu-item {
+    background-color: crimson;
+    grid-area: menuI;
+}
+
+.hero-item {
+    background-color: lightblue;
+    grid-area: heroI;
+}
+
+.main-item {
+    background-color: darkblue;
+    grid-area: mainI;
+}
+
+.banner-item {
+    background-color: goldenrod;
+    grid-area: bannerI;
+}
+
+.extra-item {
+    background-color: cyan;
+    grid-area: extraI;
+}
+
+.image-item {
+    background-color: grey;
+    grid-area: imageI;
+}
+
+h2 {color: white;}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid-conatiner {
+    display: grid;
+    grid-template-areas:
+        'headerI menuI menuI menuI' 
+        'heroI heroI heroI heroI' 
+        'mainI mainI gap imageI' 
+        'mainI mainI gap extraI'  
+        'bannerI bannerI bannerI bannerI';
+    grid-template-rows: 1fr 4fr repeat(3, 1.5fr);
+}
+
+@media (max-width:768px) {
+    #grid-conatiner {
+        grid-template-areas:
+            'headerI headerI headerI headerI' 
+            'heroI heroI heroI heroI' 
+            'menuI mainI mainI mainI' 
+            'menuI bannerI bannerI bannerI'  
+            'menuI extraI extraI imageI';
+        grid-template-rows: 1fr repeat(2, 4fr) repeat(2, 2fr);
+    }
+}
+
+@media (max-width:425px) {
+    #grid-conatiner {
+        grid-template-areas:'headerI' 'menuI' 'heroI' 'mainI' 'bannerI' 'extraI'  'imageI';
+        grid-template-rows: 1fr 1fr repeat(2, 3fr) repeat(3, 2fr) 2fr 2fr 2fr;
+    }
+}
