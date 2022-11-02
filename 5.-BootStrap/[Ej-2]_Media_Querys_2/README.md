@@ -1,1 +1,1 @@
-![Enunciado BootStrap 1](Enunciado_BootStrap_2.png)
+![Enunciado BootStrap 1](../Enunciados/Enunciado_BootStrap_2.png)
