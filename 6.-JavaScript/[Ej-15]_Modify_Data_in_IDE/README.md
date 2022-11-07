@@ -1,0 +1,1 @@
+![Ejercicio JavaScript 1](../Enunciados/Enunciado_JavaScript_15.gif)

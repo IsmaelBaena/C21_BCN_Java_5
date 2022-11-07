@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 3px solid;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.content {
+    margin-left: 25px;
+}
+
+h2 {
+    background-color: white; 
+}
