@@ -4,39 +4,66 @@ const ARRAY1 = ["🍔", "🌯", "🍣", "🍕", "🍜", "🍱", "🍙", "🍘", 
     ARRAY4 = ["🌶️", "🥛", "🌶️", "🥛", "🌶️", "🥛"],
     ARRAY5 = ["🎴", "🎴", "🎴", "🃏", "🎴", "🎴", "🎴"];
 
-function findPositionEmoji(emoji, array) {
-    let flag = false, result = null;
-    for (let i = 0; i < array.length && !flag; i++) {
-        if (array[i] == emoji) {
-            flag = true;
-            result = i;
-        } 
-    }
-    return result;
-}
-
-function encontrarEmojiEnArray(emoji, array) {
-    array.find(item => {
-        if (item == emoji) {
-            console.log("Si existe el emoji " + emoji + " en el array");
-        }
-    });
+function styleEj(num, frase) {
+    console.log("Ejercio " + num + ":");
+    console.log(frase);
+    console.log("-------------");
 }
 
 function ej1() {
-    let array = ARRAY1;
-    array.fill("🍺", findPositionEmoji("🍕", array), array.length);
-    console.log("Ejercio 1:");
-    console.log(array.toString());
-    console.log("-------------");
+    let newArray = ARRAY1;
+    newArray.fill("🍺", newArray.indexOf("🍕"));
+    styleEj(1, newArray.toString());
 }
 
 function ej2() {
-    let array = ARRAY2;
-    console.log("Ejercio 2:");
-    encontrarEmojiEnArray("🍍", array);
-    console.log("-------------");
+    let result;
+    if (ARRAY2.includes("🍍")) {
+        result = "Si existe el emoji 🍍 en el array";
+    } else {
+        result = "No existe el emoji  🍍 en el array";
+    }
+    styleEj(2, result);
+}
+
+function ej3() {
+    let newArray = ARRAY2.splice(2, 1);
+    styleEj(3, ARRAY2.toString());
+}
+
+function ej4 () {
+    let newArray = ARRAY3;
+    newArray.forEach((element, index) => {
+        if (element == "🍓") {
+            newArray.splice(index, 1, "🍄");
+        }
+    });
+    styleEj(4, newArray.toString());
+}
+
+function ej5() {
+    let newArray = ARRAY4;
+    newArray.forEach((element, index) => {
+        if (element == "🌶️") {
+            newArray.splice(index, 1, "🌶️","🥵");
+        }
+    });
+    styleEj(5, newArray.toString());
+}
+
+function ej6() {
+    let newArray = ARRAY5;
+    newArray.forEach((element, index, array) => {
+        if (element == "🎴" && array[index+1] != "🃏") {
+            newArray.splice(index, 1, "🎴", "🃏");
+        }
+    });
+    styleEj(6, newArray.toString());
 }
 
 ej1();
 ej2();
+ej3();
+ej4();
+ej5();
+ej6();
