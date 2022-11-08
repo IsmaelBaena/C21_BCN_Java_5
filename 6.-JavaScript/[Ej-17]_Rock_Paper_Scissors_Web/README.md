@@ -1,1 +1,1 @@
-![Ejercicio JavaScript 1](../Enunciados/Enunciado_JavaScript_16.png)
+![Ejercicio JavaScript 1](../Enunciados/Enunciado_JavaScript_17.png)
