@@ -62,6 +62,7 @@ Para realizar los ejercicios, no basaremos en el siguiente fichero: https://gist
 ![Resultado 4](IMG/Resultado_4_1.PNG)
 
 **BUSQUEDA:** (.\*; )(.\*)(;.\*) 
+
 **REEMPLAZO:** $2
 
 ![Resultado 4](IMG/Resultado_4_2.PNG)
