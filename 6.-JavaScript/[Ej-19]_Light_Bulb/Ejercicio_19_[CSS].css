@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+}
+
+#ll {
+    top: 25%;
+}
+
+h3 {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 3px;
+}
