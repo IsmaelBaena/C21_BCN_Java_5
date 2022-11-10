@@ -1,0 +1,96 @@
+/* Delete initial margins and padding */
+* { margin: 0px; padding: 0px;; }
+
+/* General Maketing */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* Background colors big divs */
+#eat { background-color: lightgreen; }
+#play { background-color: lightgoldenrodyellow; }
+#fight { background-color: lightcoral; }
+#sleep { background-color: lightblue; }
+
+/* Big content Divs Maketing (not tamagochi)*/
+article:not(#tamagochi) { 
+    display: grid;
+    height: 45.9vh; 
+    padding: 2%;
+    grid-template-columns: 1fr;
+}
+
+#eat, #play { grid-template-rows: repeat(2, 1fr) 10fr; }
+
+#fight, #sleep { grid-template-rows: 10fr repeat(2, 1fr); }
+
+
+/*Button Config */
+button { 
+    background-color: white;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 100%; 
+    height: fit-content;
+    width: fit-content;
+}
+
+img:not(.tamagochiIMG) {
+    height: 20px;
+    width: 20px;
+}
+
+#eat button, #fight button { margin-right: 5%; }
+
+#left button {
+    margin-right: 5%;
+    float: left;
+}
+
+#play button, #sleep button {
+    margin-left: 5%;
+    float: right;
+}
+
+/* Progress bar config */
+progress { 
+    border: 3px solid;
+    padding: 1px;
+    border-radius: 25px;
+    background-color: black;
+    width: 70%; 
+}
+
+p { font-weight: bold; }
+
+#play .pb, #sleep .pb {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* h2 config */
+h2 {
+    margin-top: 25%;
+    display: flex;
+    justify-self: center;
+}
+
+/* Tamagochi Maketing */
+#tamagochi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+#tamagochi img { height: 100px; }
+#tamagochi progress { width: 100%; }
+#tamagochi p { text-align: center; }

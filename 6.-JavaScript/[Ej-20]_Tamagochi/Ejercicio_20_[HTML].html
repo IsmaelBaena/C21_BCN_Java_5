@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ejercicio_20_[CSS].css">
+</head>
+
+<body>
+    <main>
+        <article id="eat">
+            <div class="content left">
+                <button id="eatButton_1"><img src="IMG/eat_1.PNG"></button>
+                <button id="eatButton_2"><img src="IMG/eat_2.PNG"></button>
+                <button id="eatButton_3"><img src="IMG/eat_3.PNG"></button>
+            </div>
+            <div class="pb">
+                <progress id="hunger" value="100" min="0" max="100"></progress>
+                <p id="eatmssg">100% Full</p>
+            </div>
+            <h2>Eat</h2>
+        </article>
+        <article id="play">
+            <div class="content">
+                <button id="funButton_1"><img src="IMG/fun_1.PNG"></button>
+                <button id="funButton_2"><img src="IMG/fun_2.PNG"></button>
+                <button id="funButton_3"><img src="IMG/fun_3.PNG"></button>
+            </div>
+            <div class="pb">
+                <progress id="fun" value="100" min="0" max="100"></progress>
+                <p id="funmssg">100% Fun</p>
+            </div>
+            <h2>Play</h2>
+        </article>
+        <article id="fight">
+            <h2>Fight</h2>
+            <div class="content">
+                <button id="poweButton_1"><img src="IMG/fight_1.PNG"></button>
+                <button id="poweButton_2"><img src="IMG/fight_2.PNG"></button>
+            </div>
+            <div class="pb">
+                <progress id="power" value="0" min="0" max="100"></progress>
+                <p id="powermssg">0% Power</p>
+            </div>
+        </article>
+        <article id="sleep">
+            <h2>Sleep</h2>  
+            <div class="content">
+                <button id="energyButton_1"><img src="IMG/sleep_1.PNG"></button>
+                <button id="energyButton_2"><img src="IMG/sleep_2.PNG"></button>
+            </div>
+            <div class="pb">
+                <progress id="energy" value="0" min="0" max="100"></progress>
+                <p id="energymssg">0% Energy</p>
+            </div>
+        </article>
+        <article id="tamagochi">
+            <h1 id="pokeName">Bulbasaur</h1>
+            <img src="IMG/tamagochi_evo_1.png" class="tamagochiIMG" id="evo1">
+            <img src="IMG/tamagochi_evo_2.png" class="tamagochiIMG" id="evo2">
+            <img src="IMG/tamagochi_evo_3.png" class="tamagochiIMG" id="evo3">
+            <img src="IMG/tamagochi_evo_4.png" class="tamagochiIMG" id="evo4">
+            <div>
+                <progress id="happiness" value="0" min="0" max="100"></progress>
+                <p id="happinesmssg">0% Happines</p>
+            </div>
+        </article>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="Ejercicio_20_[JS].js"></script>
+</body>
+
+</html>
