@@ -1,0 +1,1 @@
+![Enunciado 12](Enunciado/../../Enunciados/Enunciado_Java_12.png)
