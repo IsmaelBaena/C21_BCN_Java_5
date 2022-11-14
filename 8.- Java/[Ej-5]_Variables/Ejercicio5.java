@@ -3,7 +3,7 @@ public class Ejercicio5 {
 
 	public static void main(String[] args) {
 		//Logicos
-		bool flag;
+		boolean flag;
 		//Caracter
 		char letra;
 		String frase;
