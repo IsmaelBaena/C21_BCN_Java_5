@@ -71,3 +71,10 @@ Si volvemos a ejecutar el comando para comprobar que este todo bien nos podremos
 
 ## Ejercicio 1.8
 
+Ahora ya no tendremos problemas para subir nuestro fichero al repositorio remoto:
+
+- *git push*
+
+## Ejercicio 1.9
+
+Ahora si accedemos al repositorio remoto podremos ver nuestro fichero. Si nos damos cuenta se podran ver los contenidos del mismo, no solo los ficheros del repositorio. Eso es porque el contenido que hemos subido era un readme.md y github los muestra de manera automatica en cuanto lo detecta.
