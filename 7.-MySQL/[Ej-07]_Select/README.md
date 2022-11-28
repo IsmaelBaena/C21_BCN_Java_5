@@ -1,0 +1,1 @@
+![Enunciado 7](../Enunciados/Enunciado_SQL_7.png)
